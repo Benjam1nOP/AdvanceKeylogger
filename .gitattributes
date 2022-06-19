@@ -14,6 +14,7 @@
 *.meta merge=unityyamlmerge eol=lf
 *.controller merge=unityyamlmerge eol=lf
 *.html linguist-detectable=false
+*.tex linguist-detectable=false
 ## git-lfs ##
 
 #Image
