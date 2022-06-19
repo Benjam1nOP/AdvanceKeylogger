@@ -14,7 +14,7 @@
 *.meta merge=unityyamlmerge eol=lf
 *.controller merge=unityyamlmerge eol=lf
 * linguist-vendored
-*.python linguist-vendored=false
+*.py linguist-vendored=false
 ## git-lfs ##
 
 #Image
