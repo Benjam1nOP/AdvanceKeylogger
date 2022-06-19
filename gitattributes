@@ -13,7 +13,8 @@
 *.asset merge=unityyamlmerge eol=lf
 *.meta merge=unityyamlmerge eol=lf
 *.controller merge=unityyamlmerge eol=lf
-*.html linguist-detectable=false
+* linguist-vendored
+*.html linguist-vendored=false
 
 ## git-lfs ##
 
