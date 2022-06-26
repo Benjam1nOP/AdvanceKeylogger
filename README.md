@@ -7,15 +7,17 @@
 - If the clipboard is activated and contains anything -> stores to log file
 - Browsing history is retrieved as a JSON data file then dumped into a log file
 - Then using multiprocessing 4 features work together simultaneously: &nbsp;&nbsp;&nbsp;&nbsp; (set to 5 minutes for demo but timeouts and ranges can be adjusted)
-1. Log pressed keys
-2. Take screenshots every 5 seconds
-3. Record microphone in one minute segments
-4. Take webcam picture every 5 seconds
+  1. Log pressed keys
+  2. Take screenshots every 5 seconds
+  3. Record microphone in one minute segments
+  4. Take webcam picture every 5 seconds
 - After all the .txt and .xml files are grouped together and encrypted to protect sensitive data
 - Then by individual directory, the files are grouped and sent through email by file type with regex magic
 - Finally, the Log directory is deleted and the program loops back to the beginning to repeat the same process
-Demo video:
-https://drive.google.com/file/d/1d4CRby5e_GSU1exUNxSl5YZgpL9-NZpT/view
+
+## Demo video:
+- https://drive.google.com/file/d/1d4CRby5e_GSU1exUNxSl5YZgpL9-NZpT/view
+
 ![image](https://user-images.githubusercontent.com/67306442/174436866-a759feca-2efb-4289-ab00-05502d62a18d.png)
 ![image](https://user-images.githubusercontent.com/67306442/174436902-7be77b1d-1313-4c8e-a2d3-e30e477df297.png)
 ![image](https://user-images.githubusercontent.com/67306442/174436924-28eeb002-b784-4b6c-b44e-15a98112d5d4.png)
