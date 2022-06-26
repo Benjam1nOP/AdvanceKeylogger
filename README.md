@@ -1,18 +1,19 @@
 # AdvanceKeylogger
-Creates a directory to temporarily store information to exfiltrate
-Gets all the essential network information -> stores to log file      (takes about a minute in a half)
-Gets the wireless network ssid's and passwords in XML data file
-Retrieves system hardware and running process/service info
-If the clipboard is activated and contains anything -> stores to log file
-Browsing history is retrieved as a JSON data file then dumped into a log file
-Then using multiprocessing 4 features work together simultaneously:      (set to 5 minutes for demo but timeouts and ranges can be adjusted)
-Log pressed keys
-Take screenshots every 5 seconds
-Record microphone in one minute segments
-Take webcam picture every 5 seconds
-After all the .txt and .xml files are grouped together and encrypted to protect sensitive data
-Then by individual directory, the files are grouped and sent through email by file type with regex magic
-Finally, the Log directory is deleted and the program loops back to the beginning to repeat the same process
+## How it works
+- Creates a directory to temporarily store information to exfiltrate
+- Gets all the essential network information -> stores to log file &nbsp;&nbsp;&nbsp;&nbsp; (takes about a minute in a half)
+- Gets the wireless network ssid's and passwords in XML data file
+- Retrieves system hardware and running process/service info
+- If the clipboard is activated and contains anything -> stores to log file
+- Browsing history is retrieved as a JSON data file then dumped into a log file
+- Then using multiprocessing 4 features work together simultaneously: &nbsp;&nbsp;&nbsp;&nbsp; (set to 5 minutes for demo but timeouts and ranges can be adjusted)
+1. Log pressed keys
+2. Take screenshots every 5 seconds
+3. Record microphone in one minute segments
+4. Take webcam picture every 5 seconds
+- After all the .txt and .xml files are grouped together and encrypted to protect sensitive data
+- Then by individual directory, the files are grouped and sent through email by file type with regex magic
+- Finally, the Log directory is deleted and the program loops back to the beginning to repeat the same process
 Demo video:
 https://drive.google.com/file/d/1d4CRby5e_GSU1exUNxSl5YZgpL9-NZpT/view
 ![image](https://user-images.githubusercontent.com/67306442/174436866-a759feca-2efb-4289-ab00-05502d62a18d.png)
