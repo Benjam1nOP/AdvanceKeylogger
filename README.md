@@ -1,12 +1,12 @@
 # AdvanceKeylogger
 ## How it works
 - Creates a directory to temporarily store information to exfiltrate
-- Gets all the essential network information -> stores to log file &nbsp;&nbsp;&nbsp;&nbsp; (takes about a minute in a half)
+- Gets all the essential network information -> stores to log file  (takes about a minute in a half)
 - Gets the wireless network ssid's and passwords in XML data file
 - Retrieves system hardware and running process/service info
 - If the clipboard is activated and contains anything -> stores to log file
 - Browsing history is retrieved as a JSON data file then dumped into a log file
-- Then using multiprocessing 4 features work together simultaneously: &nbsp;&nbsp;&nbsp;&nbsp; (set to 5 minutes for demo but timeouts and ranges can be adjusted)
+- Then using multiprocessing 4 features work together simultaneously:   (set to 5 minutes for demo but timeouts and ranges can be adjusted)
   1. Log pressed keys
   2. Take screenshots every 5 seconds
   3. Record microphone in one minute segments
