@@ -14,6 +14,9 @@
 - After all the .txt and .xml files are grouped together and encrypted to protect sensitive data
 - Then by individual directory, the files are grouped and sent through email by file type with regex magic
 - Finally, the Log directory is deleted and the program loops back to the beginning to repeat the same process
+## Compiled all the code into .exe file for execution.
+ -  It renames itself as abs_Flash.exe and also uses adobe icon so it disguise itself as an flash update.
+ ![image](https://user-images.githubusercontent.com/67306442/175810909-bc4751ab-15ac-485f-b07a-95b17b740c41.png)
 
 ## Demo video:
 - https://drive.google.com/file/d/1d4CRby5e_GSU1exUNxSl5YZgpL9-NZpT/view
